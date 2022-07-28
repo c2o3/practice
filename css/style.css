@@ -1,0 +1,92 @@
+#wrap{
+	display: flex;
+	max-width: 750px;
+	overflow: hidden;
+	flex-direction: column;
+	box-sizing: border-box;
+	background-color: #ccc;
+}
+nav{
+	display: flex !important;
+	width: 100%;
+	height: calc((100/75)*1rem);
+	background-color: #00868B;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	font-weight: bold;
+}
+nav div p{
+	margin: 0 !important;
+}
+nav div :first-child{
+	font-size: calc((17/75)*1rem);
+}
+nav div :last-child{
+	font-size: calc((14/75)*1rem);
+	text-align: center;
+}
+section{
+	font-size: calc((14/75)*1rem);
+	border-radius: calc((18/75)*1rem);
+	padding: calc((22.5/75)*1rem);
+	background-color: white;
+}
+section .header{
+	margin-top: 6px;
+}
+section .input{
+	width: 100%;
+}
+section input{
+	width: 95%;
+	border-radius:0;
+	border-top-width: 0px;
+	border-left-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 1px;
+	padding: calc((12/75)*1rem);
+}
+section button{
+	display: block !important;
+	width: 90% !important;
+	height: calc((65/75)*1rem) !important;
+	margin: calc((18/75)*1rem) auto 0 !important;
+	background-color: #00868B !important;
+	border: transparent;
+	border-radius: 3px;
+	letter-spacing: calc((8/75)*1rem);
+	color: white !important;
+}
+.table{
+	width: 100%;
+	border-radius: calc((10/75)*1rem);
+	overflow: hidden;
+	margin-top: calc((15/75)*1rem);
+}
+table{
+    width: 100%;
+    text-align: center;
+    border-spacing: 0;
+    border-radius: calc((10/75)*1rem);
+	border: solid 1px #333;
+	table-layout: fixed;
+}
+th{
+	font-weight: bold;
+}
+td, th {
+	border-bottom: 1px solid #333 !important;
+	border-right: 1px solid #333;
+	height: calc((46/75)*1rem);
+	line-height: calc((46/75)*1rem) !important;
+    text-align: center;
+}
+textarea{
+	display: block;
+	width: 100%;
+	margin-top: calc((12/75)*1rem);
+	border-top: transparent;
+	border-left: transparent;
+	border-right: transparent;
+}
